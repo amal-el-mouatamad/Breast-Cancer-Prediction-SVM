@@ -1,12 +1,12 @@
 # 🎗️ Breast Cancer Prediction using Support Vector Machine (SVM)
 
-## 📌 Project Overview
+## 📌 Présentation du projet
 
 This project predicts whether a breast tumor is malignant or benign using the Support Vector Machine (SVM) algorithm. The project includes data preprocessing, exploratory data analysis, feature scaling, model training, and performance evaluation.
 
 ---
 
-## 🎯 Objectives
+## 🎯Objectifs
 
 - Explore the dataset
 - Clean and preprocess the data
@@ -19,8 +19,7 @@ This project predicts whether a breast tumor is malignant or benign using the Su
 
 ---
 
-## 📊 Dataset Information
-
+## 📊 Informations sur le jeu de données
 - Dataset: Breast Cancer Wisconsin Dataset
 - Number of samples: 569
 - Number of features: 30
@@ -30,7 +29,7 @@ This project predicts whether a breast tumor is malignant or benign using the Su
 
 ---
 
-## 🛠 Technologies Used
+## 🛠 Technologies utilisées
 
 - Python
 - Pandas
@@ -40,7 +39,7 @@ This project predicts whether a breast tumor is malignant or benign using the Su
 
 ---
 
-## 🤖 Machine Learning Workflow
+## 🤖Étapes du projet
 
 1. Data Loading
 2. Data Exploration
@@ -58,7 +57,7 @@ This project predicts whether a breast tumor is malignant or benign using the Su
 
 ---
 
-## 📈 Model Performance
+## 📈 Performances du modèle
 
 | Metric | Value |
 |---------|--------|
@@ -66,7 +65,7 @@ This project predicts whether a breast tumor is malignant or benign using the Su
 
 ---
 
-## 📉 Visualizations
+## 📉 Visualisations
 
 ### Correlation Matrix
 <img width="1072" height="998" alt="image" src="https://github.com/user-attachments/assets/41efebfb-0cc2-4b2c-9aa0-9391a03d7393" />
@@ -79,7 +78,7 @@ This project predicts whether a breast tumor is malignant or benign using the Su
 
 ---
 
-## 📁 Project Structure
+## 📁 Structure du projet
 
 ```
 Breast-Cancer-Prediction-SVM/
@@ -96,7 +95,7 @@ Breast-Cancer-Prediction-SVM/
 
 ---
 
-## 🚀 Future Improvements
+## 🚀Améliorations futures
 
 - Hyperparameter tuning using GridSearchCV
 - Compare SVM with other classifiers
