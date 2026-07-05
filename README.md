@@ -3,7 +3,6 @@
 ## 📌 Présentation du projet
 
 This project predicts whether a breast tumor is malignant or benign using the Support Vector Machine (SVM) algorithm. The project includes data preprocessing, exploratory data analysis, feature scaling, model training, and performance evaluation.
-
 ---
 
 ## 🎯Objectifs
