@@ -1,34 +1,41 @@
-# 🎗️ Breast Cancer Prediction using Support Vector Machine (SVM)
+# 🎗️ Prédiction du cancer du sein avec la Machine à Vecteurs de Support (SVM)
 
 ## 📌 Présentation du projet
 
-This project predicts whether a breast tumor is malignant or benign using the Support Vector Machine (SVM) algorithm. The project includes data preprocessing, exploratory data analysis, feature scaling, model training, and performance evaluation.
+Ce projet utilise l'algorithme de **Machine à Vecteurs de Support (Support Vector Machine - SVM)** afin de prédire si une tumeur du sein est **bénigne** ou **maligne**.
+
+Le projet couvre toutes les étapes d'un workflow de Machine Learning, depuis le prétraitement des données et l'analyse exploratoire jusqu'à l'entraînement du modèle et l'évaluation de ses performances.
+
 ---
 
-## 🎯Objectifs
+## 🎯 Objectifs
 
-- Explore the dataset
-- Clean and preprocess the data
-- Remove unnecessary features
-- Analyze feature correlations
-- Detect outliers
-- Apply StandardScaler
-- Train an SVM classifier
-- Evaluate model performance
+- Explorer le jeu de données.
+- Nettoyer et prétraiter les données.
+- Supprimer les variables inutiles.
+- Analyser les corrélations entre les variables.
+- Détecter les valeurs aberrantes.
+- Normaliser les données avec **StandardScaler**.
+- Entraîner un classificateur **SVM**.
+- Évaluer les performances du modèle.
 
 ---
 
 ## 📊 Informations sur le jeu de données
-- Dataset: Breast Cancer Wisconsin Dataset
-- Number of samples: 569
-- Number of features: 30
-- Target:
-  - 0 = Benign
-  - 1 = Malignant
+
+**Nom :** Breast Cancer Wisconsin Dataset
+
+- Nombre d'observations : **569**
+- Nombre de variables : **30**
+
+### Variable cible
+
+- **0 :** Tumeur bénigne
+- **1 :** Tumeur maligne
 
 ---
 
-## 🛠 Technologies utilisées
+## 🛠️ Technologies et bibliothèques utilisées
 
 - Python
 - Pandas
@@ -38,48 +45,47 @@ This project predicts whether a breast tumor is malignant or benign using the Su
 
 ---
 
-## 🤖Étapes du projet
+## ⚙️ Processus de Machine Learning
 
-1. Data Loading
-2. Data Exploration
-3. Missing Value Check
-4. Duplicate Check
-5. Remove ID Column
-6. Encode Target Variable
-7. Correlation Matrix
-8. Boxplot Visualization
-9. Train/Test Split
-10. Feature Scaling using StandardScaler
-11. SVM Model Training
-12. Prediction
-13. Model Evaluation
-
----
-
-## 📈 Performances du modèle
-
-| Metric | Value |
-|---------|--------|
-| Accuracy | **97%** |
+1. Chargement du jeu de données
+2. Analyse exploratoire des données (EDA)
+3. Vérification des valeurs manquantes
+4. Vérification des doublons
+5. Suppression de la colonne **ID**
+6. Encodage de la variable cible
+7. Analyse des corrélations
+8. Détection des valeurs aberrantes (Boxplot)
+9. Division des données en ensembles d'entraînement et de test
+10. Normalisation des variables avec **StandardScaler**
+11. Entraînement du modèle **SVM**
+12. Prédiction des résultats
+13. Évaluation des performances du modèle
 
 ---
 
+## 📈 Résultats
+
+| Indicateur | Valeur |
+|------------|--------:|
+| Accuracy | **97 %** |
+
+---
 ## 📉 Visualisations
 
-### Correlation Matrix
+### Matrice de corrélation
 <img width="1072" height="998" alt="image" src="https://github.com/user-attachments/assets/41efebfb-0cc2-4b2c-9aa0-9391a03d7393" />
  
-### Boxplot
+### Détection des valeurs aberrantes (Boxplot)
 <img width="1790" height="790" alt="image" src="https://github.com/user-attachments/assets/72a795bc-86da-45cb-9a88-523c65d8ec57" />
 
-### Confusion Matrix
+### Matrice de confusion
 <img width="572" height="483" alt="image" src="https://github.com/user-attachments/assets/e8136c45-96af-45a6-9e26-748941286ddc" />
 
 ---
 
 ## 📁 Structure du projet
 
-```
+```text
 Breast-Cancer-Prediction-SVM/
 │
 ├── breast_cancer_prediction.ipynb
@@ -94,19 +100,19 @@ Breast-Cancer-Prediction-SVM/
 
 ---
 
-## 🚀Améliorations futures
+## 🚀 Améliorations futures
 
-- Hyperparameter tuning using GridSearchCV
-- Compare SVM with other classifiers
-- Deploy the model using Streamlit
-- Perform feature selection
+- Optimiser les hyperparamètres avec **GridSearchCV**.
+- Comparer les performances du modèle SVM avec d'autres algorithmes de classification.
+- Déployer le modèle sous forme d'application web avec **Streamlit**.
+- Réaliser une sélection des variables (**Feature Selection**) afin d'améliorer les performances du modèle.
 
 ---
 
-## 👩‍💻 Author
+## 👩‍💻 Auteur
 
 **Amal El Mouatamad**
 
-AI & Data Analytics Student
+Étudiante en Intelligence Artificielle | Data Analyst
 
 ISTA NTIC Rabat
